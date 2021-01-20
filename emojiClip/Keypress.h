@@ -22,10 +22,10 @@ public:
 	{
 		if(!doShift && shouldShift) { doShift = true; }
 		try {
-			shift.press();
+			if(doShift) shift.press();
 			SendInput(1, &key.first, sizeof(INPUT));
 			SendInput(1, &key.second, sizeof(INPUT));
-			shift.release();
+			if(doShift) shift.release();
 		} catch(std::string err) {
 			return;
 		}
