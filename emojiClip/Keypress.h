@@ -49,4 +49,4 @@ public:
 };
 
 template<class T>
-Keypress<T> Keypress<T>::shift = Keypress<T>( VK_LWIN, false );
+Keypress<T> Keypress<T>::shift = Keypress<T>( VK_LSHIFT, false );
