@@ -142,6 +142,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="emojiClip.cpp" />
+    <ClCompile Include="Keypress.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Keypress.h" />
